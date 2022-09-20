@@ -1,0 +1,164 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    overflow: hidden;
+    background-color: darkolivegreen;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #979797;
+}
+
+header a,
+footer a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+header a.logo,
+footer a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover,
+footer a:hover {
+    background-color: darkolivegreen;
+    color: black;
+}
+
+header a.active,
+footer a.active {
+    background-color: cadetblue;
+    color: white;
+}
+
+.header-right,
+.footer-right {
+    float: right;
+}
+
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    text-align: inherit;
+    padding: 15px 35px;
+}
