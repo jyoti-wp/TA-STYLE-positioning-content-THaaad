@@ -1,0 +1,152 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFEF;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+/* custom style  */
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 32px;
+}
+
+.heading {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.left {
+    float: left;
+}
+
+aside {
+    width: 25%;
+}
+
+.left-side-bar p {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+article {
+    width: 50%;
+}
+
+article p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.quote {
+    padding: 0px 30px;
+}
+
+.image {
+    width: 550px;
+}
