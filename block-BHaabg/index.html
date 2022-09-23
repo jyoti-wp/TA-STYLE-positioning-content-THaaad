@@ -1,15 +1,93 @@
-<!-- ### Exercise
+<!DOCTYPE html>
+<html lang="en">
 
-1. Create a simple page having a header, main content, and a footer.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Positioning</title>
+</head>
 
-2. Inside the header keep the logo to the left and all the navigation to the right.
+<body>
+    <header class="header-main">
+        <div class="header">
+            <a href="#default" class="logo">CompanyLogo</a>
+            <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <article class="clearfix article">
+            <div class="col col-1 left">
+                <h1 class="heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sint quas!
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, distinctio porro ea rerum dolorem
+                    soluta cumque velit quo suscipit maiores voluptatem consequatur atque beatae saepe at, maxime
+                    pariatur ipsum mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum saepe ab
+                    sed expedita obcaecati maxime dolor reiciendis enim repudiandae! Cum optio sed amet voluptas
+                    delectus ea alias quod at recusandae?
+                </p>
+                <p class="quote">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non mollitia iure asperiores
+                    consectetur minima et quas fugit excepturi! Animi quas officia inventore at ex quis recusandae
+                    ducimus vero tenetur?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos quas doloremque odio
+                    dolores similique molestiae mollitia minima sit officia modi architecto, aspernatur incidunt aliquam
+                    voluptas consequatur maxime, sint sunt!
+                </p>
+            </div>
+            <div class="col col-2 left">
+                <img src="images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg" alt="Puppy Image" class="image">
+                <h1 class="heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sint quas!
+                </h1>
+            </div>
+        </article>
+        <section class="section">
+            <div class="gallery clearfix">
+                <div class="row row-1">
+                    <div class="absolute left-1">
+                        <img src="images/wengang-zhai-MJ_0PxIuquI-unsplash.jpg" alt="" class="image">
+                    </div>
+                    <div class="absolute left-1">
+                        <img src="images/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg" alt="" class="image">
+                    </div>
+                    <div class="absolute left-1">
+                        <img src="images/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="" class="image">
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="absolute left-1">
+                        <img src="images/jeremy-cai-ucYWe5mzTMU-unsplash.jpg" alt="" class="image">
+                    </div>
+                    <div class="absolute left-1">
+                        <img src="images/johannes-plenio-6XUA5KQ9-1k-unsplash.jpg" alt="" class="image">
+                    </div>
+                    <div class="absolute left-1">
+                        <img src="images/jonatan-pie-EvKBHBGgaUo-unsplash.jpg" alt="" class="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-main">
+        <div class="footer">
+            <a href="#default" class="logo">CompanyLogo</a>
+            <div class="footer-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </footer>
+</body>
 
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+</html>
