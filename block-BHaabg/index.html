@@ -1,93 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Positioning</title>
-</head>
-
-<body>
-    <header class="header-main">
-        <div class="header">
-            <a href="#default" class="logo">CompanyLogo</a>
-            <div class="header-right">
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-            </div>
-        </div>
+  <body>
+    <header class="header clearfix" id="top">
+      <div class="logo">
+        <a href="">Company Logo</a>
+      </div>
+      <nav>
+        <a href="">Home</a>
+        <a href="">Blog</a>
+        <a href="">Gallery</a>
+      </nav>
     </header>
-    <main class="main">
-        <article class="clearfix article">
-            <div class="col col-1 left">
-                <h1 class="heading">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sint quas!
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, distinctio porro ea rerum dolorem
-                    soluta cumque velit quo suscipit maiores voluptatem consequatur atque beatae saepe at, maxime
-                    pariatur ipsum mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum saepe ab
-                    sed expedita obcaecati maxime dolor reiciendis enim repudiandae! Cum optio sed amet voluptas
-                    delectus ea alias quod at recusandae?
-                </p>
-                <p class="quote">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non mollitia iure asperiores
-                    consectetur minima et quas fugit excepturi! Animi quas officia inventore at ex quis recusandae
-                    ducimus vero tenetur?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos quas doloremque odio
-                    dolores similique molestiae mollitia minima sit officia modi architecto, aspernatur incidunt aliquam
-                    voluptas consequatur maxime, sint sunt!
-                </p>
-            </div>
-            <div class="col col-2 left">
-                <img src="images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg" alt="Puppy Image" class="image">
-                <h1 class="heading">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sint quas!
-                </h1>
-            </div>
-        </article>
-        <section class="section">
-            <div class="gallery clearfix">
-                <div class="row row-1">
-                    <div class="absolute left-1">
-                        <img src="images/wengang-zhai-MJ_0PxIuquI-unsplash.jpg" alt="" class="image">
-                    </div>
-                    <div class="absolute left-1">
-                        <img src="images/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg" alt="" class="image">
-                    </div>
-                    <div class="absolute left-1">
-                        <img src="images/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="" class="image">
-                    </div>
-                </div>
-                <div class="row row-2">
-                    <div class="absolute left-1">
-                        <img src="images/jeremy-cai-ucYWe5mzTMU-unsplash.jpg" alt="" class="image">
-                    </div>
-                    <div class="absolute left-1">
-                        <img src="images/johannes-plenio-6XUA5KQ9-1k-unsplash.jpg" alt="" class="image">
-                    </div>
-                    <div class="absolute left-1">
-                        <img src="images/jonatan-pie-EvKBHBGgaUo-unsplash.jpg" alt="" class="image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer-main">
-        <div class="footer">
-            <a href="#default" class="logo">CompanyLogo</a>
-            <div class="footer-right">
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-            </div>
+    <article class="article">
+      <div class="container clearfix">
+        <div class="col left">
+          <h1 class="heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus doloribus tempora explicabo voluptatum numquam vitae
+            nihil modi vel consectetur a. Soluta vitae excepturi recusandae unde
+            perferendis similique hic illo rem! Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Repellat error deserunt exercitationem
+            pariatur aut qui placeat blanditiis ad consequatur. Ad autem fuga
+            repellendus adipisci aliquam amet nostrum id modi neque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            quidem necessitatibus, hic dolor optio culpa repellendus incidunt
+            possimus ratione tempora ipsam aperiam, obcaecati earum veniam esse
+            doloribus quos inventore libero!
+          </p>
         </div>
+        <div class="col left">
+          <img
+            src="images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+      </div>
+    </article>
+    <section class="gallery">
+      <div class="container clearfix">
+        <div class="row left-1">
+          <img
+            src="images/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="row left-1">
+          <img
+            src="images/jace-afsoon-K4XHqPZq66c-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="row left-1">
+          <img
+            src="images/jeremy-cai-ucYWe5mzTMU-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="row left-1">
+          <img
+            src="images/johannes-plenio-6XUA5KQ9-1k-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="row left-1">
+          <img
+            src="images/jonatan-pie-EvKBHBGgaUo-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="row left-1">
+          <img
+            src="images/wengang-zhai-MJ_0PxIuquI-unsplash.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="footer clearfix">
+      <div class="logo left">
+        <a href="">Company Logo</a>
+      </div>
+      <nav>
+        <a href="">FaceBook</a>
+        <a href="">Twitter</a>
+        <a href="">Instagram</a>
+        <a href="">Telegram</a>
+      </nav>
+      <button class="btn" id="top">
+        <a href="">TOP</a>
+      </button>
     </footer>
-</body>
-
+  </body>
 </html>
