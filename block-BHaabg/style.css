@@ -93,12 +93,9 @@ acronym {
 
 * {
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.header-main {
-    position: relative;
-}
 
 .header {
     background-color: darkolivegreen;
@@ -109,17 +106,13 @@ acronym {
 }
 
 header,
-footer {
+    {
     overflow: hidden;
     padding: 30px 10px;
 }
 
-footer {
-    background-color: #979797;
-}
 
-header a,
-footer a {
+header a {
     float: left;
     color: black;
     text-align: center;
@@ -130,26 +123,22 @@ footer a {
     border-radius: 4px;
 }
 
-header a.logo,
-footer a.logo {
+header a.logo {
     font-size: 25px;
     font-weight: bold;
 }
 
-header a:hover,
-footer a:hover {
+header a:hover {
     background-color: darkolivegreen;
     color: black;
 }
 
-header a.active,
-footer a.active {
+header a.active {
     background-color: cadetblue;
     color: white;
 }
 
-.header-right,
-.footer-right {
+.header-right {
     float: right;
 }
 
@@ -170,14 +159,18 @@ img {
     border-radius: 10px;
 }
 
-.clearfix::before {
+.clearfix::before,
+.clearfix::after {
     content: "";
-    clear: left;
     display: table;
 }
 
 .clearfix::after {
     clear: both;
+}
+
+.article {
+    padding: 80px 0px;
 }
 
 p {
@@ -195,37 +188,57 @@ p {
 }
 
 .left {
+    margin: 0px 20px;
     float: left;
     width: 45%;
 }
 
 img {
     width: 100%;
+    border: 2px solid greenyellow;
 }
 
-.col-1,
-.col-2 {
-    margin: 20px;
+.gallery {
+    background-color: aliceblue;
+    padding: 80px 0px;
 }
 
-.article {
-    margin: 20px;
-}
-
-.main {
-    max-width: 1040px;
+.container {
+    max-width: 1200px;
     margin: 0 auto;
-}
-
-.absolute {
-    margin: 10px;
 }
 
 .left-1 {
     float: left;
-    width: 30.33%;
+    width: 31.33%;
+    margin: 10px;
 }
 
-.section {
-    margin: 40px;
+.footer {
+    background-color: cadetblue;
+    padding: 40px;
+}
+
+.footer nav a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.btn {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.btn a {
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
 }
