@@ -1,0 +1,389 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+/* Custom header style  */
+
+.clearfix::before::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.header {
+    background-color: #5385C1;
+    padding: 80px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav a,
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* main section  */
+
+.main-section {
+    background-color: #5385C1;
+    padding: 80px 0px;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 100;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.article {
+    margin: 80px 0px;
+}
+
+.col {
+    margin: 10px 50px;
+}
+
+.left-1 {
+    float: left;
+    width: 24.33%
+}
+
+.heading-col {
+    font-size: 18px;
+    color: #5385C1;
+    font-weight: 200;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.para-col {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.btn {
+    background-color: #5385C1;
+    padding: 15px;
+    width: 75px;
+    border: none;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/* galler style 
+ */
+
+.gallery {
+    background-color: #5385C1;
+    margin-top: 480px;
+    padding-bottom: 120px
+}
+
+.heading-two {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 100;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    padding-top: 80px
+}
+
+/* image sectio 
+ */
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.profile {
+    border: 1px solid #779DCE;
+    padding: 40px 25px;
+}
+
+.profile-heading {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 33px;
+    font-weight: 100;
+}
+
+.profile p {
+    color: #779DCE;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.blog-section {
+    margin: 80px 0px;
+}
+
+.blog-section h3 {
+    text-align: center;
+    color: #5385C1;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 1.7;
+}
+
+.blog-section p {
+    text-align: center;
+    line-height: 1.7;
+    color: gray;
+    font-size: 16px;
+}
+
+.blog {
+    margin: 0px 30px;
+}
+
+.blog-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}
+
+.blog img {
+    width: 500px;
+    height: 200px;
+}
+
+.blog h4 {
+    color: #5385C1;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 30px;
+}
+
+.blog p {
+    line-height: 1.7;
+    color: #BCBCBC;
+    font-size: 12px;
+    text-align: inherit;
+    margin-bottom: 40px;
+}
+
+/* .btn-more {
+    background-color: #5385C1;
+    padding: 15px;
+    width: 75px;
+    border: none;
+} */
+
+.footer .logo a {
+    color: #BCBCBC;
+    font-size: 12px;
+}
