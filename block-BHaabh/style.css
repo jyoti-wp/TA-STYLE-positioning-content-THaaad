@@ -345,7 +345,7 @@ select {
 }
 
 .blog {
-    margin: 0px 30px;
+    margin: 0px 15px;
 }
 
 .blog-main {
@@ -355,7 +355,7 @@ select {
 }
 
 .blog img {
-    width: 500px;
+    width: 540px;
     height: 200px;
 }
 
@@ -376,6 +376,11 @@ select {
     margin-bottom: 40px;
 }
 
+hr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* .btn-more {
     background-color: #5385C1;
     padding: 15px;
@@ -383,7 +388,16 @@ select {
     border: none;
 } */
 
+.footer {
+    padding: 40px 0px;
+}
+
 .footer .logo a {
     color: #BCBCBC;
+    font-size: 12px;
+}
+
+footer .nav a {
+    color: #5385C1;
     font-size: 12px;
 }
